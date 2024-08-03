@@ -1,9 +1,9 @@
-/* Problem 6: (not found in Dev Tools)*/
+/* Problem 6: (delete important)(not found in Dev Tools)*/
 body {
-  font-family: Arial, sans-serif !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  background-color: #f0f0f0 !important;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
 }
 
 h1 {
@@ -19,28 +19,25 @@ h1 {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/*Issue 7: Not necessarily a problem here, but related to a problem in HTML. */
+/*Issue 7: (adjust w & h in img=)Not necessarily a problem here, but related to a problem in HTML. */
 #img-container {
-  width: 600px;
+  width: 200px;
   margin: auto;
 }
 
 img#largeImage {
   width: 100%;
 }
-
+.inline-style {
+  font-weight: bold;
+}
 
 body div#profileContainer > h2 {
   font-size: 2em;
 }
 
 /* Problem: 8 Hint, see Dev Tools LightHouse*/
-.unused-class-1,
-.unused-class-2,
-.unused-class-3 {
-  color: blue;
-  background-color: black;
-}
+
 
 @media (min-width: 576px) {
   .col-sm {
