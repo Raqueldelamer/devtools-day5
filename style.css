@@ -21,7 +21,7 @@ h1 {
 
 /*Issue 7: (adjust w & h in img=)Not necessarily a problem here, but related to a problem in HTML. */
 #img-container {
-  width: 200px;
+  width: 400px;
   margin: auto;
 }
 
